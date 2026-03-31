@@ -9,6 +9,7 @@ header{
     color: white;
 }
 marquee{
+    padding: 50px 0px;
     background: url(../images/land7.png) center;
     background-color: rgb(83, 5, 5);
 }
