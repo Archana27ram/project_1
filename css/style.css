@@ -1,0 +1,30 @@
+body{
+    background:linear-gradient(to right, rgb(126, 64, 240), rgb(68, 7, 235));
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+}
+marquee{
+    background: url(../images/land7.png) center;
+    background-color: rgb(83, 5, 5);
+}
+
+.sideheading{
+    display: flex;
+    text-align: center;
+    font-size: 2opx;
+    letter-spacing: 2px;
+}
+.latestmovies{
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+}
+.latestmovies a{
+    text-align: center;
+    margin: 20px;
+
+}
